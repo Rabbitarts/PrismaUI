@@ -28,7 +28,7 @@ import { Button } from 'PrismaUI';
 Examples of use:
 
 ```tsx
-import { Alert } from 'your-ui-kit';
+import { Alert } from 'PrismaUI';
 
 <Alert type="success">Success message</Alert>
 ```
@@ -38,7 +38,7 @@ import { Alert } from 'your-ui-kit';
 Examples of use:
 
 ```tsx
-import { Modal } from 'your-ui-kit';
+import { Modal } from 'PrismaUI';
 
 const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -60,7 +60,7 @@ const handleModalClose = () => {
 Examples of use:
 
 ```tsx
-import { Input } from 'your-ui-kit';
+import { Input } from 'PrismaUI';
 
 <Input
 type="text | email | password | search"
