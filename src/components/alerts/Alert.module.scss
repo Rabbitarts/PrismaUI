@@ -1,0 +1,65 @@
+.alert {
+	@apply min-w-[20rem] fixed right-10 top-10 flex items-center justify-between px-4 py-3 rounded-xl transition-all duration-300;
+	animation: alertAn 0.4s ease-in-out;
+
+	&.closeAlert {
+		animation: alertClose 0.4s ease-in-out;
+	}
+}
+
+.success {
+	@apply bg-[#E0E9E5] border-2 border-[#C7D9C9] text-[#4C504F];
+}
+.scIcon {
+	@apply text-[#5CC25C] rounded-full text-3xl;
+}
+
+.error {
+	@apply bg-[#ECDFDA] border-2 border-[#DEC5BC] text-[#4C504F];
+}
+
+.errorIcon {
+	@apply text-[#F16364] rounded-full text-3xl;
+}
+
+.warning {
+	@apply bg-[#EEE5E0] border-2 border-[#E3D1B9] text-[#4C504F];
+}
+
+.warningIcon {
+	@apply text-[#EBA675] rounded-full text-3xl;
+}
+
+.info {
+	@apply bg-[#D7E0EC] border-2 border-[#ADC2DD] text-[#4C504F];
+}
+
+.infoIcon {
+	@apply text-[#2C8AE8] rounded-full text-3xl;
+}
+
+.close {
+	@apply text-lg hover:bg-[#EDEDED] transition duration-300 p-1 rounded-xl;
+}
+
+@keyframes alertAn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes alertClose {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+}

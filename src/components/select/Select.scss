@@ -1,0 +1,14 @@
+.selectMenu {
+	animation: Select 0.4s ease-in-out;
+}
+
+@keyframes Select {
+	0% {
+		opacity: 0;
+		transform: translateY(-8px);
+	}
+	55% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

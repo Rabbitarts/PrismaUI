@@ -1,0 +1,15 @@
+.imageCard {
+	@apply mb-4 w-[35%];
+}
+
+.card {
+	@apply mb-4 w-[35%];
+}
+
+.readMore {
+	@apply text-sm text-white bg-[#161B22] px-4 py-2 rounded-lg transition-colors duration-300 mt-2;
+}
+
+.addToCart {
+	@apply bg-blue-500 text-white px-4 py-2 rounded-lg text-sm;
+}

@@ -1,0 +1,15 @@
+.card {
+	@apply border border-gray-300 p-0;
+
+	.image {
+		@apply rounded-t-lg;
+	}
+
+	.title {
+		@apply text-xl font-semibold mb-2;
+	}
+
+	.price {
+		@apply text-gray-700 mb-4;
+	}
+}

@@ -1,0 +1,15 @@
+.card {
+	@apply bg-white border-gray-300 border-solid border rounded-lg shadow-sm transition-all duration-300 ease-in-out;
+
+	&:hover {
+		@apply shadow border-transparent;
+	}
+
+	.name {
+		@apply text-xl font-medium text-gray-800;
+	}
+
+	.age {
+		@apply text-gray-700;
+	}
+}

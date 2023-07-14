@@ -1,0 +1,18 @@
+.card {
+	@apply bg-white border-gray-300 border-solid border rounded-xl shadow-sm transition-all duration-300 ease-in-out;
+}
+
+.card:hover {
+	@apply shadow-lg border-transparent;
+}
+
+.title {
+	@apply text-xl font-medium mb-1;
+}
+
+.content {
+	@apply text-gray-700 mb-2;
+}
+.image {
+	@apply rounded-t-xl w-full mb-4;
+}

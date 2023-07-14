@@ -1,0 +1,15 @@
+.image {
+	@apply rounded-lg;
+}
+
+.dotsContainer {
+	@apply flex flex-col gap-2;
+
+	.dot {
+		@apply w-2 h-4 bg-gray-300 rounded-xl transition-all duration-300;
+
+		&.active {
+			@apply bg-[#FF6B6B];
+		}
+	}
+}

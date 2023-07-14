@@ -1,0 +1,15 @@
+.progress {
+	@apply relative w-full h-[20px] bg-[#f0f0f0] rounded-lg overflow-hidden;
+
+	.progressBar {
+		@apply h-full bg-[#EBA675] transition-all duration-300;
+	}
+
+	.text {
+		@apply absolute left-1/2 top-1/2 -translate-y-1/2 text-sm;
+	}
+}
+
+.circle {
+	@apply w-12 h-12 rounded-full bg-[#00aaff] absolute top-1/2 left-1/2 -translate-x-1/2;
+}

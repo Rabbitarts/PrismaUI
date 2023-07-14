@@ -1,0 +1,19 @@
+.avatar {
+	@apply inline-flex items-center justify-center relative overflow-hidden rounded-full;
+
+	&.small {
+		@apply w-[32px] h-[32px];
+	}
+
+	&.medium {
+		@apply w-[48px] h-[48px];
+	}
+
+	&.large {
+		@apply w-[64px] h-[64px];
+	}
+
+	&.bordered {
+		@apply border-2 border-gray-400;
+	}
+}

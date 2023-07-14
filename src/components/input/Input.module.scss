@@ -1,0 +1,27 @@
+.defaultInput {
+	@apply mb-2;
+
+	.label {
+		@apply block text-gray-700 font-medium mb-2;
+	}
+
+	.input {
+		@apply border border-[#E0E1E1] rounded-xl pl-12 pr-4 py-3 text-gray-800 outline-none focus:border-[#4D81D9] transition-all duration-300;
+	}
+}
+
+.searchIcon {
+	@apply text-xl absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400;
+}
+
+.emailIcon {
+	@apply text-xl absolute left-4 top-1/2 transform -translate-y-1/2 text-[#616465];
+}
+
+.passwordIcon {
+	@apply text-xl absolute left-4 top-1/2 transform -translate-y-1/2 text-[#616465];
+}
+
+.textIcon {
+	@apply text-xl absolute left-4 top-1/2 transform -translate-y-1/2 text-[#616465];
+}

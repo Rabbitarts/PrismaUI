@@ -1,0 +1,35 @@
+.button {
+	@apply inline-block bg-[#161B22] hover:bg-[#202731] text-white py-2 px-4 rounded-lg ease-in-out;
+}
+
+.primary {
+	@apply text-white bg-blue-500 hover:bg-blue-600;
+}
+
+.secondary {
+	@apply text-blue-500 bg-transparent border border-blue-500 hover:bg-blue-50;
+}
+
+.success {
+	@apply text-green-500 bg-transparent border border-green-500 hover:bg-green-50;
+}
+
+.warning {
+	@apply text-yellow-500 bg-transparent border border-yellow-500 hover:bg-yellow-50;
+}
+
+.error {
+	@apply text-red-500 bg-transparent border border-red-500 hover:bg-red-50;
+}
+
+.info {
+	@apply text-blue-500 bg-transparent border border-blue-500 hover:bg-blue-50;
+}
+
+.outline {
+	@apply bg-transparent hover:bg-opacity-10;
+}
+
+.rounded {
+	@apply rounded-full;
+}

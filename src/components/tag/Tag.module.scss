@@ -1,0 +1,45 @@
+.tag {
+	@apply inline-flex items-center justify-center px-3 py-1 rounded-lg text-base transition-colors text-white cursor-pointer;
+
+	&.pink {
+		@apply bg-[#ff6b6b];
+	}
+
+	&.green {
+		@apply bg-[#55efc4];
+	}
+
+	&.blue {
+		@apply bg-[#0984e3];
+	}
+
+	&.red {
+		@apply bg-[#d63031];
+	}
+
+	&.yellow {
+		@apply bg-[#f9ca24];
+	}
+
+	&.purple {
+		@apply bg-[#a29bfe];
+	}
+
+	&.orange {
+		@apply bg-[#fdcb6e];
+	}
+
+	&.gray {
+		@apply bg-[#dfe6e9] text-black;
+	}
+
+	&.cyan {
+		@apply bg-[#00b4d8];
+	}
+}
+
+.label {
+	@apply inline-block max-w-full overflow-hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

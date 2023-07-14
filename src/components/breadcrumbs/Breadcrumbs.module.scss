@@ -1,0 +1,15 @@
+.breadcrumbs {
+	@apply flex text-sm;
+
+	.item {
+		@apply flex items-center;
+	}
+
+	.link {
+		@apply text-[#333] transition-colors hover:text-[#666];
+	}
+
+	.divider {
+		@apply mx-2 text-[#999];
+	}
+}
