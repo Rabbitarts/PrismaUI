@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+# Prisma UI Kit
 ## Getting Started
 
-First, run the development server:
+Installation.
+
+How to install your UI Kit in a project:
 
 ```bash
-npm run dev
+npm install PrismaUI
 # or
-yarn dev
-# or
-pnpm dev
+yarn add PrismaUI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Button
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Examples of use:
 
-## Learn More
+```tsx
+import { Button } from 'PrismaUI';
 
-To learn more about Next.js, take a look at the following resources:
+<Button type='primary' rounded onClick={handleClick}>Click Me</Button>
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Alert
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Examples of use:
 
-## Deploy on Vercel
+```tsx
+import { Alert } from 'your-ui-kit';
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<Alert type="success">Success message</Alert>
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Modal
+
+Examples of use:
+
+```tsx
+import { Modal } from 'your-ui-kit';
+
+const [isModalOpen, setIsModalOpen] = useState(false)
+
+const handleModalOpen = () => {
+	setIsModalOpen(true)
+}
+
+const handleModalClose = () => {
+	setIsModalOpen(false)
+}
+
+<Modal isOpen={isModalOpen} onClose={handleClose}>
+  {Content}
+</Modal>
+```
+
+# Input 
+
+Examples of use:
+
+```tsx
+import { Input } from 'your-ui-kit';
+
+<Input
+type="text | email | password | search"
+placeholder="Text..."
+onChange={handleChange}
+value={value}
+/>
+```
+
+### More components and a use case will be coming later
